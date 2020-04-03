@@ -8,7 +8,6 @@ https://class.sanjieke.cn/course/section_content?cid=3003359&section_id=1673672
 https://class.sanjieke.cn/course/class_content_with_checkpoint?cid=17301420
 加载第一个视频
 https://service.sanjieke.cn/video/master/1673668.m3u8?class_id=3003359
-
 从加载页中取出m3u8文件地址
 https://service.sanjieke.cn/video/media/1673668/608p.m3u8?class_id=3003359
 获取key地址
@@ -23,9 +22,9 @@ print('''
 ''')
 import os
 import re
+
 import requests
 from Crypto.Cipher import AES
-
 
 headrer = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36',
